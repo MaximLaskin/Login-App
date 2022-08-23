@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431F7BCC28B5326A0094A148 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431F7BCB28B5326A0094A148 /* Gradient.swift */; };
+		432846A228AE4C4500229620 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432846A128AE4C4500229620 /* UserViewController.swift */; };
+		433C240E28B3A52600B7DBC8 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C240D28B3A52600B7DBC8 /* EducationViewController.swift */; };
+		433C241028B3AF6E00B7DBC8 /* HobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C240F28B3AF6E00B7DBC8 /* HobbyViewController.swift */; };
 		435CED4528A79E6A00718B0A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435CED4428A79E6A00718B0A /* GradientView.swift */; };
 		4378A46E28A66BE5001CECE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4378A46D28A66BE5001CECE3 /* AppDelegate.swift */; };
 		4378A47028A66BE5001CECE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4378A46F28A66BE5001CECE3 /* SceneDelegate.swift */; };
@@ -14,10 +18,15 @@
 		4378A47528A66BE5001CECE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4378A47328A66BE5001CECE3 /* Main.storyboard */; };
 		4378A47728A66BE6001CECE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4378A47628A66BE6001CECE3 /* Assets.xcassets */; };
 		4378A47A28A66BE6001CECE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4378A47828A66BE6001CECE3 /* LaunchScreen.storyboard */; };
+		43A4E22328AEE899009736F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4E22228AEE899009736F4 /* User.swift */; };
 		43E717E528A6C61200300054 /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E717E428A6C61200300054 /* WelcomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		431F7BCB28B5326A0094A148 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		432846A128AE4C4500229620 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		433C240D28B3A52600B7DBC8 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		433C240F28B3AF6E00B7DBC8 /* HobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyViewController.swift; sourceTree = "<group>"; };
 		435CED4428A79E6A00718B0A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		4378A46A28A66BE5001CECE3 /* Login App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4378A46D28A66BE5001CECE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +36,7 @@
 		4378A47628A66BE6001CECE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4378A47928A66BE6001CECE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4378A47B28A66BE6001CECE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A4E22228AEE899009736F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		43E717E428A6C61200300054 /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,17 +70,54 @@
 		4378A46C28A66BE5001CECE3 /* Login App */ = {
 			isa = PBXGroup;
 			children = (
-				4378A46D28A66BE5001CECE3 /* AppDelegate.swift */,
-				4378A46F28A66BE5001CECE3 /* SceneDelegate.swift */,
-				4378A47128A66BE5001CECE3 /* LoginViewController.swift */,
-				43E717E428A6C61200300054 /* WelcomePageViewController.swift */,
-				4378A47328A66BE5001CECE3 /* Main.storyboard */,
-				435CED4428A79E6A00718B0A /* GradientView.swift */,
+				43A4E21E28AEE7B2009736F4 /*  ViewControllers */,
+				43A4E22128AEE865009736F4 /* Models */,
+				43A4E21F28AEE7DE009736F4 /* Storyboards */,
+				43A4E22028AEE815009736F4 /* SupportFiles */,
 				4378A47628A66BE6001CECE3 /* Assets.xcassets */,
-				4378A47828A66BE6001CECE3 /* LaunchScreen.storyboard */,
 				4378A47B28A66BE6001CECE3 /* Info.plist */,
 			);
 			path = "Login App";
+			sourceTree = "<group>";
+		};
+		43A4E21E28AEE7B2009736F4 /*  ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4378A47128A66BE5001CECE3 /* LoginViewController.swift */,
+				43E717E428A6C61200300054 /* WelcomePageViewController.swift */,
+				432846A128AE4C4500229620 /* UserViewController.swift */,
+				433C240F28B3AF6E00B7DBC8 /* HobbyViewController.swift */,
+				433C240D28B3A52600B7DBC8 /* EducationViewController.swift */,
+			);
+			path = " ViewControllers";
+			sourceTree = "<group>";
+		};
+		43A4E21F28AEE7DE009736F4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4378A47328A66BE5001CECE3 /* Main.storyboard */,
+				4378A47828A66BE6001CECE3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		43A4E22028AEE815009736F4 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				431F7BCB28B5326A0094A148 /* Gradient.swift */,
+				435CED4428A79E6A00718B0A /* GradientView.swift */,
+				4378A46D28A66BE5001CECE3 /* AppDelegate.swift */,
+				4378A46F28A66BE5001CECE3 /* SceneDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		43A4E22128AEE865009736F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43A4E22228AEE899009736F4 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432846A228AE4C4500229620 /* UserViewController.swift in Sources */,
 				4378A47228A66BE5001CECE3 /* LoginViewController.swift in Sources */,
+				433C240E28B3A52600B7DBC8 /* EducationViewController.swift in Sources */,
+				433C241028B3AF6E00B7DBC8 /* HobbyViewController.swift in Sources */,
 				4378A46E28A66BE5001CECE3 /* AppDelegate.swift in Sources */,
+				431F7BCC28B5326A0094A148 /* Gradient.swift in Sources */,
 				435CED4528A79E6A00718B0A /* GradientView.swift in Sources */,
+				43A4E22328AEE899009736F4 /* User.swift in Sources */,
 				43E717E528A6C61200300054 /* WelcomePageViewController.swift in Sources */,
 				4378A47028A66BE5001CECE3 /* SceneDelegate.swift in Sources */,
 			);
